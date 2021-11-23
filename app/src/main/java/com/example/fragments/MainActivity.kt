@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity(),Communicator {
         val transaction = this.supportFragmentManager.beginTransaction()
         val secondFragment = SecondFragment()
         secondFragment.arguments = bundle
-        transaction.replace(R.id.fragment_container_view_tagContainer,secondFragment)
+        transaction.replace(R.id.fragment_container2_view_tagContainer,secondFragment)
         transaction.commit()
     }
 }
